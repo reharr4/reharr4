@@ -1,36 +1,222 @@
 <!DOCTYPE html>
-<html>
-<head>    
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Rachel Harrison</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+    <link href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+</head>
+
 <body>
-    <title>Rachel Harrison</title>
-    <link href="index.css" text="text/css" rel="stylesheet">
-    
-    <div>
-        <h1 class="rachel">Rachel Harrison</h1>
-    </div>
-    
-    <div>
-        <img class="img" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/1620555_10204102930832522_1822804882453014121_n.jpg?_nc_cat=108&_nc_ht=scontent-atl3-1.xx&oh=6756dd5414ef6b5414de947a7100ab66&oe=5D30B3AF" width="100" height="100">
-    </div>
 
-    <div>
-        <h2 class="about">About Me</h2>
-    </div>
+    <div class="content">
+        <div class="content-inside">
+            <header>
+                <nav class="navbar white">
+                    <div class="nav-wrapper">
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="#portfolio" class="links cyan-text">Portfolio </a></li>
+                            <li><a href="./Assets/Harrison, Rachel Resume.pdf" class="links cyan-text">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
 
-    <div>
-        <p class="p">Hi! My name is Rachel. I'm from Kentucky, I'm pigeon toed, and I love to travel. I have a fiance named Sean and a polydactyl cat named Felicia Fancybottom.</p>
-        <p class="p">I am currently a student at Trilogy's Computer Programming Bootcamp at Vanderbilt University. Prior to this, I earned a Bachelor's of Arts in Art History from the University of Kentucky.</p>
-    </div>
+            <div class="parallax-container">
+                <div class="parallax"><img src="Assets/Images/20181017_102603.jpg" id="para-image"
+                        style="transform: translate3d (-50%, 312.664px, 0px); opacity: 1;"></div>
+            </div>
+            <div class="section white">
+                <div class="row container">
+                    <div class="col s12 m10 offest-m1">
+                        <h2 class="header cyan-text">Hi! My name is Rachel.</h2>
+                        <img id="bio-pic" class="circle responsive-img" src="Assets/Images/2591_Edit_Square.jpg"
+                            alt="Rachel goes to the park">
+                        <p class="cyan-text text-darken-2">I am a curious, self-driven designer with a passion for the
+                            arts, social good, and UX
+                            design.
+                            I am dedicated to using technology and design as a tool for equity, empathy, and
+                            change.
+                            I
+                            enjoy storytelling, bringing people together, and decluttering information. I aim to
+                            live a
+                            life full of creativity and honesty in both my professional and personal life.
+                            In my spare time I love to read, embroider and spend time with my friends and family.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-    <div>
-        <div class="contact">
-                    <h3 class="info">Contact Info</h3>
-                    <ul>
-                    <li><a href="mailto:reharr4@gmail.com">Email Me</a></li>
-                    <li><a href="https://www.linkedin.com/in/rachel-e-harrison/">LinkedIn</a></li>
-                    <li><a href="https://www.instagram.com/rachelizabetha/">Instagram</a></li>
-                    </ul>
-        </div> 
-    </div>
+                <div class="content">
+                    <div class="content-inside">
+
+                        <section>
+                            <h2 class="cyan-text">Portfolio</h2>
+
+                            <section>
+                                <div id="portfolio" class="container section scrollspy">
+                                    <div class="row">
+                                        <div class="card">
+                                            <div class="card-image waves-effect waves-block waves-light">
+                                                <img class="activator" img src="./Assets/Images/careminder.jpg">
+                                            </div>
+                                            <div class="card-content">
+                                                <p><a href="http://careminderbc.herokuapp.com/login"
+                                                        class="cyan-text text-darken-4">CareMinder</a></p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title cyan-text text-darken-4">CareMinder
+                                                    <i class="fas fa-times right"></i></span>
+                                                <p class="cyan-text">Here is some more information about this product
+                                                    that is
+                                                    only
+                                                    revealed once
+                                                    clicked on.</p>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="card">
+                                            <div class="card-image waves-effect waves-block waves-light">
+                                                <img class="activator" img src="./Assets/Images/wishyouwerebeer.jpg">
+                                            </div>
+                                            <div class="card-content">
+                                                <p><a href="https://reharr4.github.io/WishYouWereBeer/index2.html"
+                                                        class="cyan-text text-darken-4">Wish You Were Beer</a></p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title cyan-text text-darken-4">Wish You Were Beer<i
+                                                        class="fas fa-times right"></i></span>
+                                                <p class="cyan-text">Here is some more information about this product
+                                                    that is
+                                                    only
+                                                    revealed once
+                                                    clicked on.</p>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="card">
+                                            <div class="card-image waves-effect waves-block waves-light">
+                                                <img class="activator" img src="./Assets/Images/triviagame.jpg">
+                                            </div>
+                                            <div class="card-content">
+                                                <p><a href="https://reharr4.github.io/Trivia-Game/"
+                                                        class="cyan-text text-darken-4">This, That, or the Other</a></p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title cyan-text text-darken-4">This, That, or the
+                                                    Other<i class="fas fa-times right"></i></span>
+                                                <p class="cyan-text">Here is some more information about this product
+                                                    that is
+                                                    only
+                                                    revealed once
+                                                    clicked on.</p>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="card">
+                                            <div class="card-image waves-effect waves-block waves-light">
+                                                <img class="activator" img src="./Assets/Images/wordguess.jpg">
+                                            </div>
+                                            <div class="card-content">
+                                                <p><a href="https://reharr4.github.io/Word-Guess-Game/"
+                                                        class="cyan-text text-darken-4">Powerpuff Girls Hangman</a></p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title cyan-text text-darken-4">Powerpuff Girls
+                                                    Hangman<i class="fas fa-times right"></i></span>
+                                                <p class="cyan-text">Here is some more information about this product
+                                                    that is
+                                                    only
+                                                    revealed once
+                                                    clicked on.</p>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="card">
+                                            <div class="card-image waves-effect waves-block waves-light">
+                                                <img class="activator" img src="./Assets/Images/crystalscollector.jpg">
+                                            </div>
+                                            <div class="card-content">
+                                                <p><a href="https://reharr4.github.io/unit-4-game/"
+                                                        class="cyan-text text-darken-4">Crystals Collector</a></p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="card-title cyan-text text-darken-4">Crystals Collector<i
+                                                        class="fas fa-times right"></i></span>
+                                                <p class="cyan-text">Here is some more information about this product
+                                                    that is
+                                                    only
+                                                    revealed once
+                                                    clicked on.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </section>
+                        </section>
+                        <footer class="page-footer white">
+                            <div class="container">
+                                <div class="row">
+                                    <h5 class="cyan-text">Contact Me</h5>
+                                    <ul>
+                                        <a href="mailto:harrison.e.rachel@gmail.com?Subject=Hello%20" target="_top"> <i
+                                                class="far fa-envelope fa-4x"></i></a>
+                                        <a href="https://www.linkedin.com/in/rachel-e-harrison/"> <i
+                                                class="fab fa-linkedin fa-4x"></i></a>
+                                        <a href="https://github.com/reharr4"> <i class="fab fa-github fa-4x"></i></a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-copyright white">
+                                <div class="container cyan-text">
+                                    © 2019 | You should totally
+                                    <a href="https://www.linkedin.com/in/rachel-e-harrison/">hire me</a>
+                                    . I like making stuff look good.
+                                    </p>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
 </body>
-</head>  
+
+<script>
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></link>
+
+    // scrollspy function
+    $(document).ready(function () {
+        $('.scrollspy').scrollSpy();
+    });
+
+    // parallax function
+    // document.addEventListener('DOMContentLoaded', function () {
+    //     var elems = document.querySelectorAll('.parallax');
+    //     var instances = M.Parallax.init(elems, options);
+    // });
+    // var instance = M.Parallax.getInstance(elem);
+
+
+    // sticky navbar function
+    // window.onscroll = function () { myFunction() };
+    // var navbar = document.getElementById("navbar");
+    // var sticky = navbar.offsetTop;
+    // // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    // function myFunction() {
+    //     if (window.pageYOffset >= sticky) {
+    //         navbar.classList.add("sticky")
+    //     } else {
+    //         navbar.classList.remove("sticky");
+    //     }
+    // }
+
+</script>
+
+
+</html>
