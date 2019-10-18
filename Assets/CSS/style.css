@@ -1,15 +1,263 @@
-#bio-pic{
-    height: 25%;
-    width: 50%
-}
-body, html {
+html, body {
     height: 100%;
-  }
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+}
+  
+/* Navigation  */
+nav li a:hover{
+    opacity: 0.8;
+    color: #01a3a4;
+    background-color: transparent
+}
+/*nav ul a {
+    -webkit-appearance: none;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #576574;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer
+}
+a:hover {
+    opacity: 0.8;
+    color: #01a3a4;
+    background-color: transparent
+}
+a:active,
+a:hover {
+    outline-width: 0;
+}
+/* .menu a {
+    margin-bottom: 0;
+    line-height: 1;
+    text-decoration: none;
+    display: block;
+    padding: 0.7rem 1rem;
+} */
+
+
+
+
+/* Body */
+/*.intro_name{
+    margin: 0;
+    color: #00d2d3;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}*/
 #bio-pic{
-    height: 25%;
-    width: 50%
+    border-radius: 300px;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px
 }
-#para-image{
-    width: 75%;
-    height: 75%;
+/*a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
 }
+#hello{
+    align-content: center
+}*/
+.about__hello {
+    text-align: center;
+    font-weight: bold;
+    color: #01a3a4;
+}
+
+/* merging css*/
+
+body {
+    background: white;
+    color: rgb(38, 79, 168);
+    margin: 0 auto;
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Do Hyeon', sans-serif;
+    color: rgb(38, 79, 168);
+    margin: 0px;
+    padding: 25px;
+}
+a {
+    color: rgb(38, 79, 168);
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.float {
+    float: left;
+}
+hr {
+    margin: 0px;
+}
+.header {
+    width: 960px;
+    margin: auto;
+}
+header {
+    background-color: #fff;
+    height: 100px;
+}
+ul {
+     padding: 0px;
+     margin: 0px;
+}
+li {
+     list-style-type: none;
+     position: relative;
+     float: left;
+     color: rgb(38, 79, 168);
+     font-size: 19px;
+     font-weight: bold;
+}
+nav a {
+     text-decoration: none;
+     color: rgb(38, 79, 168);
+     padding: 10px 20px;
+     line-height: 50px;
+}
+nav a:hover {
+     color: rgb(132, 168, 235);
+}
+nav {
+    float: right;
+    padding: 25px 0px;
+    height: 50px;
+}
+header h1 {
+    text-align: center;
+    float: left;
+    /* font-size: 40px; */
+    line-height: 1.2;
+}
+h2 {
+    background-color:#fff;
+    color: rgb(38, 79, 168);
+    padding: 25px 0px; 
+    /* font-size: 30px; */
+    text-align: center;
+    line-height: 0.8;
+}
+section {
+    margin: auto;
+    background-color: #FFF;
+    border-color: #fff;
+    width: 910px;
+    padding: 0px 25px;
+    margin-top: 25px;
+}
+.container {
+    padding: 25px 0px;
+}
+p {
+    margin: 0px;
+    font-size: 20px;
+}
+.logo-img {
+    width: 6%;
+    height: 6%;
+    display: inline-block;
+}
+
+/*about*/
+
+
+.links {
+    text-align: center;
+    align-content: center;
+    padding: 1px;
+    color:rgb(38, 79, 168);
+}
+.bio-link {
+    color:rgb(38, 79, 168);
+    text-decoration: none;
+    padding: 0px;
+    line-height: 0px;
+    text-align: center;
+}
+.bio-link:hover {
+    background-color: white;
+}
+.bio {
+    line-height: 20px;
+}
+h2 {
+    align-content: center;
+}
+
+/*portfolio*/
+
+.portfolio {
+    height: 80%;
+}
+.row{
+text-align: center
+}
+.card-img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 50%;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(3, 79, 150, 0.5);
+
+} 
+.container {
+    padding: 10px 16px;
+ }
+.card{
+    max-width: auto;
+    text-align: left;
+    transition: 0.3s;
+    width: auto;
+}
+.card-title{
+    padding: 21px 0px;
+}
+.card-subtitle{
+padding-top: 0px
+}
+  
+/*footer*/
+footer {
+    color:rgb(38, 79, 168);
+    width: 100%;
+    padding: 25px 0 20px 0;
+    background:#FFF;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 20px;
+}
+.footer_bottom{
+    text-align: center;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding-bottom: 15px;
+    background: #FFF;
+}
+
+
+/*begin responsive changes*/
+/*small*/
+/* @media screen and (min-width: 769px) and (max-width: 980px) {} */
+
+/* Tablet View */
+ /* @media screen and (min-width: 641px) and (max-width: 768px) { */
+
+
+
+
+/* Smartphone View */
+ /* @media screen and (max-width: 640px){} */
