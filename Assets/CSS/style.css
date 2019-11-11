@@ -18,19 +18,25 @@ html, body {
     -webkit-font-smoothing: antialiased;
 }
 /* navbar */
-nav a {
+nav li {
     text-decoration: none;
     /* color: #576574; */
     color: #8395a7;
     padding: 20px 20px;
     line-height: 50px;
     margin-top: .8em;
+    font-size: 14px;
+    padding: 10px 10px 0 10px;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav li a {
+    color: #576574;
+    font-weight: 400;
 }
 nav a:hover {
     color: rgb(132, 168, 235);
-}
-li{
-    text-align: -webkit-match-parent;
 }
 menu{
     display:block
@@ -45,7 +51,7 @@ menu{
     color: #2e86de;
 
 }
-.intro-title {
+.intro_title {
     color: #576574;
     margin: 0;
     line-height: 0.5;
@@ -61,7 +67,7 @@ menu{
 }
 .bio {
     font-size: 22px;
-    color: #8395a7;
+    color: #576574;
 }
 h1{
     font-size:2em;
